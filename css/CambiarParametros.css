@@ -1,0 +1,25 @@
+/*#0F2C40 #2D85BF*/
+
+.CambiarParametros {
+  background: #2D85BF;
+  width: 80%;
+  padding: 5%;
+  margin: 5%;
+}
+.CambiarParametros input{
+width: 100%;
+padding: 20px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+transition: 0.2s;
+}
+.CambiarParametros input[type="submit"]{
+background: #0F2C40 ;
+border-radius: 0px;
+}
+.CambiarParametros input[type="submit"]:hover{
+background: #0F2C40;
+border-radius: 20px;
+cursor:pointer;
+}

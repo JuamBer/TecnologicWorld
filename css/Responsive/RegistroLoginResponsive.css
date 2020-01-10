@@ -1,0 +1,13 @@
+@media only screen and (max-width: 700px) {
+  .Alerta {
+  padding: 15px;
+  font-size: 20px;
+}
+.RegistrarseLogearse {
+  width: 85%;
+}
+.info {
+  width: 85%;
+  margin-top: 10px;
+}
+}

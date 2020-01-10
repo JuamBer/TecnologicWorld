@@ -1,0 +1,51 @@
+/*#0F2C40 #2D85BF*/
+.FormContacto {
+  background: #2D85BF;
+  width: calc(40% - 20px);
+  border: #0F2C40 solid 10px;
+  float: left;
+  margin: 2.5%;
+  padding: 2.5%;
+
+}
+.FormContacto h2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800px;
+}
+.FormContacto input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+}
+.FormContacto textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  min-height: 150px;
+}
+
+
+.InfoContacto {
+  background: #2D85BF;
+  width: calc(40% - 20px);
+  margin: 2.5%;
+  padding: 2.5%;
+  float: left;
+  text-align: center;
+  border: #0F2C40 solid 10px;
+}
+.FormContacto input[type="submit"] {
+  background: #0F2C40;
+  font-size: 20px;
+  transition: 0.2s;
+  border-radius: 0px;
+}
+.FormContacto input[type="submit"]:hover {
+  cursor: pointer;
+  border-radius: 20px;
+}

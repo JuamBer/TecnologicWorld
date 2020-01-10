@@ -1,0 +1,71 @@
+/*#0F2C40 #2D85BF*/
+
+.Alerta {
+	background:#0F2C40 ;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.RegistroLogin {
+	width: 90%;
+	padding: 5%;
+	margin-top: 2%;
+}
+.RegistrarseLogearse {
+	background: #fff;
+	border:#0F2C40 10px solid;
+	width: calc(45% - 20px);
+	padding: 5%;
+	float: left;
+	margin-right: 5%;
+	background: #2D85BF;
+
+}
+.RegistrarseLogearse input {
+		padding: 20px;
+		color:black;
+		width: calc( 100%);
+		border-radius: 5px;
+		margin-top: 10px;
+		border:  none;
+}
+.RegistrarseLogearse input[type="submit"]{
+	background:#2D85BF;
+	transition: 0.3s;
+	font-size: 18px;
+	background: #0F2C40 ;
+	color:white;
+	border: none;
+	border-radius: 0px;
+}
+.RegistrarseLogearse input[type="submit"]:hover{
+	background: #0F2C40;
+	cursor:pointer;
+	border-radius: 10px;
+}
+.Info {
+	background: #fff;
+	border:#0F2C40 10px solid;
+	width: calc(30% - 20px);
+	padding: 5%;
+	float: left;
+	background: #2D85BF;
+	text-align: center;
+}
+
+
+
+.Info h3 {
+	text-align: center;
+	font-size: 30px;
+	background: #2D85BF;
+	padding: 15px;
+	transition: 0.2s;
+	margin-bottom: 20px;
+		background: #0F2C40;
+}
+.Info h3:hover {
+
+	border-radius: 10px;
+
+}

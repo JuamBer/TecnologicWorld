@@ -1,0 +1,256 @@
+
+/*#0F2C40 #2D85BF*/
+* {
+  	margin:0px;
+  	padding:0px;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+input,textarea,option{
+  color: black;
+}
+input[type="submit"]{
+  color: white;
+}
+
+header {
+  display: inline-block;
+  background: #2D85BF;
+  border-top: #0F2C40 5px solid;
+  width: calc(100%-20px);
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  justify-content:space-between;
+}
+header .Logo {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+header .Logo img{
+  width: 100%;
+}
+header .Menú {
+  width: 25%;
+  height: 80px;
+}
+header .Menú ul {
+  display: flex;
+  justify-content: space-around;
+}
+header .Menú ul li{
+  background: #0F2C40;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+header .Menú ul li:hover{
+  border-radius: 10px;
+}
+header .Menú ul li:hover > a{
+  color:white;
+}
+header .Menú ul li a{
+  text-decoration: none;
+}
+
+header .Buscador {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+header .RegistroLoginHeader {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+header .Buscador form input {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 13px;
+  width: 120%;
+  border: none;
+}
+
+
+header .RegistroLoginHeader a.SinIniciarSesión{
+  width: 60%;
+  height: 25px;
+  background:#0F2C40;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
+  margin-top: 13px;
+  transition: 0.3s;
+}
+header .RegistroLoginHeader a.SinIniciarSesión:hover{
+  border-radius: 10px;
+}
+header .RegistroLoginHeader .SesiónIniciada {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border:none;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+header .RegistroLoginHeader .SesiónIniciada img{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.MenuDesplegableUsuario {
+  position: absolute;
+  background: #2D85BF;
+  margin-top: 90px;
+  width: calc(20% - 100px);
+  text-align: center;
+  padding: 30px;
+  border: #0F2C40 solid 10px;
+  display: none;
+
+}
+
+
+.MenuDesplegableUsuario ul li{
+  padding: 10px;
+  margin-top: 10px;
+  background:  #0F2C40;
+  transition: 0.2s;
+}
+.MenuDesplegableUsuario ul li:hover{
+  border-radius: 20px;
+}
+.MenuDesplegableUsuario ul li:hover > a{
+
+}
+.MenuDesplegableUsuario ul li a{
+  color: white;
+}
+.MenuDesplegable {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+  header .Buscador {
+    width: 15%;
+  }
+  header .RegistroLoginHeader a.SinIniciarSesión{
+    padding: 16px;
+    font-size: 15px;
+    width: 200%;
+  }
+  header .Menú ul li{
+    background: #2D85BF;
+    padding: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2.5px;
+    font-size: 17px;
+  }
+  header .Logo {
+  width: 30%;
+  }
+  header .Logo img{
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 800px) {
+.MenuDesplegableUsuario {
+  width: 100%;
+  margin-left: -80%;
+  border: none;
+  padding: 0px;
+  padding-bottom:30px;
+  border-bottom: 10px solid #0F2C40;
+}
+}
+@media only screen and (max-width: 770px) {
+
+  header .Menú{
+    width:50%;
+  }
+  header .Menú ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header .Buscador {
+    width: 20%;
+  }
+}
+/*#0F2C40 #2D85BF*/
+@media only screen and (max-width: 450px) {
+  header {
+    display: inline;
+    justify-content;
+    background: none;
+    border: none;
+    margin-top: -10px;
+  }
+  header .Logo{
+    width: 100%;
+    background: #2D85BF;
+    border-top: #0F2C40 solid 5px;
+  }
+
+  header .Menú ul li{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .Menú{
+  padding-top: 10px;
+    width:100%;
+    background: #2D85BF;
+  }
+  header .Buscador {
+    width: 45%;
+    background: #2D85BF;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  header .Buscador input{
+    width: 20%;
+
+  }
+  header .RegistroLoginHeader {
+    background: #2D85BF;
+    width: 50%;
+
+  }
+  .MenuDesplegableUsuario {
+    position: absolute;
+    background: #2D85BF;
+    margin-top: 80px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border: #0F2C40 solid 5px;
+    display: none;
+    margin-left: -25%;
+
+  }
+
+
+  .MenuDesplegableUsuario ul li{
+    padding: 10px;
+    margin-top: 10px;
+    background:  #0F2C40;
+    transition: 0.2s;
+  }
+}

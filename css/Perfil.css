@@ -1,0 +1,158 @@
+/*#0F2C40 #2D85BF*/
+
+
+.PerfilUsuario {
+  background:#2D85BF;
+  border-top:#0F2C40 solid 10px;
+  border-bottom:#0F2C40 solid 10px;
+  width: 90%;
+  padding: 5%;
+  height: 300px;
+}
+.PerfilUsuario .FotoPerfilUsuario {
+  width: 20%;
+  float: left;
+}
+.PerfilUsuario .FotoPerfilUsuario img {
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+
+}
+.PerfilUsuario .Nombre {
+  width: 20%;
+  float: left;
+  padding: 2.5%;
+  font-size: 30px;
+
+}
+.PerfilUsuario .Estado {
+  float: left;
+  padding: 2.5%;
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+
+}
+
+.Editar {
+  background:  #2D85BF;
+  margin-bottom: 50px;
+  padding: 5%;
+}
+.Editar .CambiarEstado {
+  padding: 5%;
+}
+.Editar .CambiarEstado input{
+  width: 100%;
+  padding: 20PX;
+  border:none;
+  background: #0F2C40 ;
+  margin-top: 10px;
+}
+.Editar .CambiarEstado textarea{
+  width: 100%;
+
+
+  padding: 20PX;
+  border:none;
+
+
+}
+.Editar .CambiarNombreCorreoPass {
+  padding: 5%;
+}
+.Editar .CambiarFoto {
+  padding: 5%;
+}
+.Editar .CambiarNombreCorreoPass ul {
+  display: flex;
+  justify-content: space-around;
+}
+.Editar .CambiarNombreCorreoPass ul li{
+  padding: 20px;
+  background: #0F2C40;
+  list-style: none;
+}
+
+.Editar .CambiarNombreCorreoPass ul li:hover{
+  border-radius: 10px;
+}
+.Editar .CambiarNombreCorreoPass ul li a{
+  text-decoration: none;
+}
+.Editar .CambiarFoto {
+
+  display: flex;
+  justify-content: center;
+}
+.Editar .CambiarFoto input[type="file"]{
+  background: #2D85BF;
+  padding: 20px;
+  width: 100%;
+
+}
+.Editar .CambiarFoto input[type="submit"]{
+  padding: 20px;
+  border: none;
+  background: #0F2C40;
+  width: 100%;
+  transition: 0.2;
+}
+
+.Editar  input[type="submit"]:hover{
+  border-radius: 20px;
+
+  cursor:pointer;
+}
+
+.Edit {
+
+  display: flex;
+  justify-content: center;
+}
+.Edit a{
+  width: 100%;
+  padding: 20px;
+  background: #0F2C40;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  transition: 0.2s;
+  border-bottom: 10px #0F2C40 solid;
+}
+.Edit a:hover{
+  background: #2D85BF;
+  font-weight: 800;
+}
+.PostsHechos h2 {
+  color:black;
+}
+.NoHayNada {
+  text-align: center;
+  background:#2D85BF;
+  margin: 10%;
+  padding: 5%;
+  width: 70%;
+}
+.NoHayNada h3 {
+  font-size: 50px;
+  font-weight: 800;
+}
+@media only screen and (max-width: 450px) {
+.PerfilUsuario .FotoPerfilUsuario img {
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+}
+.PerfilUsuario .Nombre {
+  width: 20%;
+  float: left;
+  margin-left: 20%;
+  padding: 2.5%;
+  font-size: 30px;
+
+}
+
+
+}

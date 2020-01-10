@@ -1,0 +1,48 @@
+/*#0F2C40 #2D85BF*/
+
+.EditarPost {
+  width: 90%;
+  padding: 5%;
+  background: #2D85BF;
+  justify-content: center;
+  display: flex;
+  border-top: 10px solid #0F2C40;
+}
+.EditarPost input{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: black;
+  transition: 0.4s;
+}
+.EditarPost textarea{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: black;
+  min-height: 300px;
+}
+.EditarPost select{
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: black;
+}
+.EditarPost input[type="submit"]{
+
+  background: #0F2C40 ;
+  border-radius: 0px;
+
+}
+.EditarPost input[type="submit"]:hover{
+  background: #0F2C40;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}

@@ -1,0 +1,209 @@
+/*#0F2C40 #2D85BF*/
+
+.Post {
+width: 90%;
+padding: 5%;
+}
+.Post .PersonaPost {
+  width: 25%;
+  padding: 2.5%;
+  background: #2D85BF;
+  min-height: 400px;
+  float:left;
+}
+.Post .PersonaPost img{
+  width: 40% ;
+  float: left;
+}
+.Post .PersonaPost a {
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+}
+
+.Post .PersonaPost .InformaciónPost {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.Post .PersonaPost .EditarBorrar {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  float: right;
+}
+.Post .PersonaPost .EditarBorrarPost {
+  background: #0F2C40 ;
+  padding: 10px;
+  width: calc(100% - 30px);
+  margin-top: 10px;
+  font-size: 15px;
+  color:white;
+  display: inline-block;
+  transition: 0.3s;
+}
+.Post .PersonaPost .EditarBorrarPost:hover {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Post .PostPost {
+  word-wrap: break-word;
+  width:59%;
+  padding: 5%;
+  margin-left: 1%;
+  display: inline-block;
+  background: #2D85BF;
+  min-height: 300px;
+
+}
+.Post .PostPost h2{
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.Post .PostPost p{
+  font-size: 18px;
+}
+.FormularioParaComentar {
+}
+
+
+.FormularioParaComentar .FormularioComentar {
+  display: flex;
+  justify-content: space-around;
+}
+.FormularioParaComentar .FormularioComentar img{
+  height: 50px;
+  border-radius: 50%;
+}
+.FormularioParaComentar .FormularioComentar {
+  margin-top: 100px;
+  width: 100%;
+  padding: 1%;
+  background: #2D85BF;
+  border-top:#0F2C40 solid 5px;
+  border-bottom:#0F2C40 solid 5px;
+
+
+}
+.FormularioParaComentar .FormularioComentar form{
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding: 5px;
+}
+.FormularioParaComentar .FormularioComentar textarea{
+  width: 80%;
+  border-radius: none;
+  height: 50px;
+  padding: 10px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  border:none;
+  color:black;
+
+
+}
+
+.FormularioParaComentar .FormularioComentar input{
+  width: 20%;
+  padding: 10px;
+  color:black;
+  height: 50px;
+  padding-top: 8px;
+  border-radius: 0px;
+  background:#0F2C40 ;
+  border:none;
+  border-left: 1px solid  #0F2C40;
+  transition: 0.2s;
+  color:white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.FormularioParaComentar .FormularioComentar input:hover{
+  background: #0F2C40;
+  cursor:pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+@media only screen and (max-width: 450px) {
+
+  .Post .PersonaPost {
+    width: 95%;
+    padding: 2.5%;
+    background: #2D85BF;
+    float:left;
+    height: auto;
+  }
+  .Post .PostPost {
+    width:90%;
+    padding: 5%;
+    margin-left: 0%;
+    display: inline-block;
+    background: #2D85BF;
+    min-height: 300px;
+
+  }
+  .Post .PostPost h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .Post .PostPost p{
+    font-size: 18px;
+  }
+  .FormularioParaComentar .FormularioComentar img{
+    display: none;
+  }
+  .FormularioParaComentar .FormularioComentar {
+    margin-top: 100px;
+    width: 100%;
+    padding: 1%;
+    background: #2D85BF;
+    border-top:#0F2C40 solid 5px;
+    border-bottom:#0F2C40 solid 5px;
+
+
+  }
+  .FormularioParaComentar .FormularioComentar form{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding: 5px;
+  }
+  .FormularioParaComentar .FormularioComentar textarea{
+    width: 70%;
+    border-radius: none;
+    height: 50px;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border:none;
+    color:black;
+
+
+  }
+  .FormularioParaComentar .FormularioComentar input{
+    width: 30%;
+    font-size: 15px;
+    padding: 10px;
+    color:black;
+    height: 50px;
+    padding-top: 8px;
+    border-radius: 0px;
+    background:#0F2C40 ;
+    border:none;
+    border-left: 1px solid  #0F2C40;
+    transition: 0.2s;
+    color:white;
+    font-weight: 600;
+  }
+}

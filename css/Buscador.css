@@ -1,0 +1,41 @@
+/*#0F2C40 #1CAEB2*/
+
+.PersonaBuscador {
+	width: 28%;
+	padding: 1.5%;
+	float: left;
+	margin: 1%;
+	background:#2D85BF ;
+	display: flex;
+	justify-content: space-between;
+	color:white;
+	border-top:5px solid #2D85BF ;
+
+	transition: 0.2s;
+}
+.PersonaBuscador img{
+	width: 50px;
+	height: 50px;
+
+}
+.PersonaBuscador:hover{
+	border-radius: 10px;
+	border-top:5px solid black;
+	background: #0F2C40;
+}
+
+/*#0F2C40 #3CB2FF #36A0E5 #2D85BF #1CAEB2*/
+
+.ResultadosBuscador {
+	background:#0F2C40;
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	padding: 2.5%;
+}
+.ResultadosBuscador .Resultados {
+	font-size: 30px;
+	text-align: right;
+	color:white;
+}

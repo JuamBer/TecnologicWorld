@@ -1,0 +1,94 @@
+/*#0F2C40 #2D85BF*/
+
+
+ .-Titulo {
+	background: #0F2C40;
+	padding: 20px;
+	font-family: Stencil;
+	text-align: center;
+	font-size:40px;
+	color:white;
+}
+
+.NuevoTema {
+  padding: 40px;
+  padding-left: 0px;
+  width: calc(100% - 40px);
+}
+.NuevoTema a{
+  text-decoration: none;
+
+  margin: 15px;
+  padding: 20px;
+  transition: 0.2s;
+  background: #0F2C40;
+}
+.NuevoTema a:hover{
+  border-radius: 10px;
+
+}
+
+.PreguntasForo {
+  flex-wrap: wrap;
+  align-content:space-around;
+  flex-direction: row;
+  display: flex;
+}
+.PreguntaForo {
+  word-wrap: break-word;
+  width: calc(32% - 20px);
+  padding: 10px;
+  background: #2D85BF;
+  transition: 0.2s;
+  margin: 0.5%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border-bottom: 10px #0F2C40 solid;
+}
+.PreguntasForo {
+  width: 100%;
+}
+
+.PreguntaForo .PersonaDelPost img {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+.PreguntaForo .PersonaDelPost{
+  width: 100%;
+  height: 90px;
+}
+.PreguntaForo .PersonaDelPost img{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.PreguntaForo .PersonaDelPost h4{
+  text-decoration: none;
+  width: 25%;
+  float: left;
+  font-size: 15px;
+  color: black;
+  padding: 5px;
+}
+.PreguntaForo .PersonaDelPost p{
+  font-size: 18px;
+  color: white;
+
+}
+.PreguntaForo .TítuloDelPost {
+  width: 100%;
+}
+.PreguntaForo .TítuloDelPost h3 {
+  color: black;
+  margin-top: -30px;
+  font-size: 20px;
+}
+.PreguntaForo .DataDelPost {
+  width: 100%;
+}
+.PreguntaForo:hover {
+  border-radius: 10px;
+  background: #0F2C40;
+}
