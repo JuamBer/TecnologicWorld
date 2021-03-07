@@ -9,11 +9,6 @@ A cada usuario se le da un rango dentro de la web, según este podrá acceder a 
 
 Este proyecto paso por muchas versiones, básicamente fue mi manera de aplicar lo que iba aprendiendo. Empecé con HTML y CSS, luego añadiría JS, Jquery, Boostrap, que posteriormente eliminaría. También por el lado del servidor tenemos a PHP y MySQL como protagonistas.
 
-## Servidor 📌
-
-* **XAMPP** - Usaba XAMPP para el desarrollo en local.
-* **000WebHost** - Actualmente está alojada en un hosting gratuito.
-
 ## Tecnologías 🚀
 
 * **HTML**  
@@ -21,7 +16,12 @@ Este proyecto paso por muchas versiones, básicamente fue mi manera de aplicar l
 * **PHP** 
 * **SQL** 
 
-## Control De Versiones 🚀
+## Servidor 📌
+
+* **XAMPP** - Usaba XAMPP para el desarrollo en local.
+* **000WebHost** - Actualmente está alojada en un hosting gratuito.
+
+## Control De Versiones 📌
 
 * **Git y GitHub** 
 
